@@ -1,6 +1,6 @@
 # dot
 
-My .dot files.
+My dot files.
 
 ## Copyright and License
 
