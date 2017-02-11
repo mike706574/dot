@@ -6,5 +6,5 @@ set nosmartindent
 set nocindent
 set noautoindent
 
-set backspace indent,eol,start
+set backspace=2
 set nocompatible
