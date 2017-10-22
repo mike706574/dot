@@ -8,3 +8,5 @@ set noautoindent
 
 set backspace=2
 set nocompatible
+
+syntax on
