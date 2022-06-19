@@ -44,4 +44,4 @@ alias up="docker compose up"
 alias down="docker compose down"
 
 # prompt
-PROMPT="%F{green}%n@%m%F{white}:%F{blue}%1~$ %F{white}"
+PROMPT="%F{green}%n@%m%F{white}:%F{cyan}%~$ %F{white}"
