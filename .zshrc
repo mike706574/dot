@@ -1,5 +1,8 @@
 # aliases
 
+# zsh
+alias reload="source $HOME/.zshrc"
+
 # ls
 alias ll='ls -alF'
 alias la='ls -A'
@@ -45,3 +48,15 @@ alias down="docker compose down"
 
 # prompt
 PROMPT="%F{green}%n@%m%F{white}:%F{cyan}%~$ %F{white}"
+
+# bin
+path+=("$HOME/bin")
+export PATH
+
+# configure word selection
+autoload -U select-word-style
+select-word-style bash
+
+# sdkman
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
